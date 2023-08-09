@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Box-model</title>
+        <link rel="stylesheet" href="box-model.css">
+        <style>
+           *{
+                background-color: black;
+            } 
+            details{
+                color: red;
+            }
+            
+            body{
+                height:100vh;
+                width:50vw;
+                display:flex;
+                margin-left:90px;
+            }
+            video{
+                padding: 8px;
+                height:250px;
+                width:auto; 
+                border:2px solid white;
+                border-radius: 12px;
+                box-shadow: 1px 1px 10px rgb(61, 190, 202);
+                transition: height 2s ease-in-out;
+            }
+            video:focus{
+                height:400px;
+            }
+            summary{
+                font-size: 25px;
+            }
+            div{
+                display:flex;
+            }
+            td,tr,table{
+                margin-left:100px;
+                padding:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <details>
+            <!-- <summary></summary> -->
+            <table>
+                <tr>
+                    <td>
+                        <div class="video">
+                            <video src="https://www.youtube.com/watch?v=tA8h_exda3E&ab_channel=ABEERARORA" type="video/mp4"  controls></video>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <video src="https://www.youtube.com/watch?v=m2gFwIgXgx8&list=LL&index=421&ab_channel=ZeeMusicCompany" type="video/mp4"  controls></video>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <video src="https://www.youtube.com/watch?v=S1VnDZhTemI&ab_channel=SonyMusicIndia" type="video/mp4"  controls></video>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div>
+                            <video src="https://www.youtube.com/watch?v=Ob4wvIHUmnA&ab_channel=T-Series" type="video/mp4"  controls></video>
+                        </div>
+                    </td>
+                    <td>
+                        <div>
+                            <video src="https://www.youtube.com/watch?v=vZAAHUT3RDU&list=LL&index=263&ab_channel=T-Series" type="video/mp4"  controls ></video>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+    </details>
+    </body>
+</html>
