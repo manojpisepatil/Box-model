@@ -1,4 +1,4 @@
-# The CSS Box Model: A Structural Framework for Web Layout 🎨📏💡
+# The CSS Box Model: A Structural Web Layout 🎨📏💡
 
 ## Overview ✨📖🌐
 
